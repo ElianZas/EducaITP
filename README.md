@@ -26,27 +26,6 @@ Antes de comenzar, asegúrate de tener instalados los siguientes programas y her
 - [Eclipse](https://www.eclipse.org/downloads/) o [IntelliJ IDEA](https://www.jetbrains.com/idea/download/) - IDEs recomendados para desarrollar en Java
 - [Selenium WebDriver](https://www.selenium.dev/downloads/) - biblioteca de automatización de navegadores
 
-## Instalación
-
-1. **Clona el repositorio**:
-
-   ```bash
-   git clone https://github.com/usuario/EducaITP.git
-   ```
-
-2. **Importa el proyecto en tu IDE**:
-
-   - Abre Eclipse o IntelliJ IDEA.
-   - Importa el proyecto como un proyecto de Maven existente.
-
-3. **Configura las dependencias de Maven**:
-
-   El archivo `pom.xml` ya debe incluir las dependencias necesarias para Selenium y TestNG. Maven se encargará de descargar estas dependencias automáticamente.
-
-4. **Configura TestNG en el proyecto**:
-
-   Si estás utilizando un IDE como Eclipse o IntelliJ, asegúrate de tener instalado el plugin de TestNG.
-
 ## Estructura del Proyecto
 
 El proyecto sigue una estructura estándar para proyectos de pruebas automatizadas:
@@ -74,10 +53,6 @@ EducaITP/
    ```bash
    mvn clean test
    ```
-
-2. **Reporte de Resultados**:
-
-   TestNG genera un reporte de resultados de las pruebas en formato HTML. Puedes encontrar el informe en la carpeta `target/surefire-reports/` después de ejecutar las pruebas.
 
 ## Diseño Page Factory
 
