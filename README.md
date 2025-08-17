@@ -22,23 +22,6 @@ Se usaron las siguientes tecnologías:
 - [Eclipse](https://www.eclipse.org/downloads/) o [IntelliJ IDEA](https://www.jetbrains.com/idea/download/) - IDEs recomendados para desarrollar en Java
 - [Selenium WebDriver](https://www.selenium.dev/downloads/) - biblioteca de automatización de navegadores
 
-## Estructura del Proyecto
-
-El proyecto sigue una estructura estándar para proyectos de pruebas automatizadas:
-
-```
-EducaITP/
-│
-├── src/main/java/              # Código fuente principal (si es necesario)
-│
-├── src/test/java/              # Código de pruebas automatizadas
-│   ├── pages/                  # Clases de Page Factory que representan las páginas web
-│   ├── tests/                  # Clases de pruebas que contienen los casos de prueba
-│   └── utils/                  # Utilidades y configuraciones adicionales
-│
-├── pom.xml                     # Archivo de configuración de Maven con las dependencias
-└── README.md                   # Documentación del proyecto
-```
 
 ## Diseño Page Factory
 
