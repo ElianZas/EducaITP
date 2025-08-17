@@ -2,12 +2,8 @@
 
 Este es un proyecto realizado, en Selenium, JAVA, y TESTNG como FRAMEWORK. Además contiene práctica con el patrón de diseño PAGE FACTORY.
 
-Aquí tienes un archivo `README.md` para el proyecto **EducaITP**:
-
 ```markdown
-# EducaITP
-
-EducaITP es un proyecto automatizado de pruebas desarrollado en **Java**, utilizando **Selenium** como herramienta de automatización de pruebas y **TestNG** como framework de pruebas. El proyecto sigue el patrón de diseño **Page Factory** para una mejor organización y mantenimiento del código.
+Es un proyecto automatizado de pruebas desarrollado en **Java**, utilizando **Selenium** como herramienta de automatización de pruebas y **TestNG** como framework de pruebas. El proyecto sigue el patrón de diseño **Page Factory** para una mejor organización y mantenimiento del código.
 
 ## Características
 
@@ -19,7 +15,7 @@ EducaITP es un proyecto automatizado de pruebas desarrollado en **Java**, utiliz
 
 ## Prerrequisitos
 
-Antes de comenzar, asegúrate de tener instalados los siguientes programas y herramientas:
+Se usaron las siguientes tecnologías:
 
 - [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html) - versión 8 o superior
 - [Apache Maven](https://maven.apache.org/download.cgi) - para la gestión de dependencias y ejecución de pruebas
@@ -44,22 +40,6 @@ EducaITP/
 └── README.md                   # Documentación del proyecto
 ```
 
-## Ejecución de Pruebas
-
-1. **Ejecución con TestNG**:
-
-   Puedes ejecutar las pruebas directamente desde tu IDE utilizando los archivos de configuración `testng.xml`, o desde la línea de comandos con Maven:
-
-   ```bash
-   mvn clean test
-   ```
-
 ## Diseño Page Factory
 
 El patrón **Page Factory** facilita la creación y gestión de los elementos de las páginas web. En este proyecto, se utilizan las anotaciones de Selenium para definir los elementos web en las clases de página. Cada clase representa una página de la aplicación EducaITP y proporciona métodos para interactuar con los elementos de la interfaz de usuario.
-
-## Contacto
-
-Para más información o consultas, puedes contactar a los desarrolladores del proyecto.
-
-Este archivo proporciona una guía completa para configurar, ejecutar y contribuir al proyecto EducaITP.
